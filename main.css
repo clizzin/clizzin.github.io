@@ -17,6 +17,12 @@ body {
     margin-left: auto;
   }
 
+  #banner {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+
   h2 {
       background-color: black;
       color: white;
