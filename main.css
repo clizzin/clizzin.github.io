@@ -4,47 +4,47 @@ body {
     margin: 0 auto;
     padding: 16px;
     max-width: 700px;
-  }
-  
-  header {
+}
+
+header {
     border: 5px solid black;
     display: flex;
     margin-bottom: 20px;
     padding: 0 10px;
-  }
-  
-  nav {
-    margin-left: auto;
-  }
+}
 
-  #banner {
+nav {
+    margin-left: auto;
+}
+
+#banner {
     display: block;
     margin: 0 auto;
     max-width: 300px;
-  }
+}
 
-  h2 {
-      background-color: black;
-      color: white;
-      padding: 10px 15px;
-  }
-  
-  #blog article {
+h2 {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
+
+#blog article {
     border: 1px solid black;
     margin: 15px 0;
     overflow: auto;
     padding: 0 20px 16px;
-  }
+}
 
-  /* Override default p styling. Instead, we specify a bottom padding of 16px
-   * for the article box, so that the box always ends with 16px of space, even
-   * if there's a floated element. */
-  #blog article p {
-      margin-bottom: 0;
-  }
+/* Override default p styling. Instead, we specify a bottom padding of 16px
+ * for the article box, so that the box always ends with 16px of space, even
+ * if there's a floated element. */
+#blog article p {
+    margin-bottom: 0;
+}
 
-  .float {
-      float: left;
-      margin-top: 16px;
-      margin-right: 16px;
-  }
+.float {
+    float: left;
+    margin-top: 16px;
+    margin-right: 16px;
+}
