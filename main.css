@@ -22,14 +22,22 @@ body {
       padding: 10px 15px;
   }
   
-  article {
+  #blog article {
     border: 1px solid black;
     margin: 15px 0;
     overflow: auto;
-    padding: 0 20px;
+    padding: 0 20px 16px;
+  }
+
+  /* Override default p styling. Instead, we specify a bottom padding of 16px
+   * for the article box, so that the box always ends with 16px of space, even
+   * if there's a floated element. */
+  #blog article p {
+      margin-bottom: 0;
   }
 
   .float {
       float: left;
-      margin-right: 10px;
+      margin-top: 16px;
+      margin-right: 16px;
   }
