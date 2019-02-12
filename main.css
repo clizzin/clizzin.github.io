@@ -61,8 +61,19 @@ nav ul {
 
 #banner {
     display: block;
-    margin-top: 30px;
+    margin: 30px 0;
     max-width: 100%;
+}
+
+#banner img {
+    max-width: 100%;
+}
+
+#banner figcaption {
+    font-size: 10px;
+    font-style: italic;
+    padding-top: 2px;
+    text-align: right;
 }
 
 h2 {
