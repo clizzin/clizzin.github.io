@@ -61,8 +61,8 @@ nav ul {
 
 #banner {
     display: block;
-    margin: 0 auto;
-    max-width: 80%;
+    margin-top: 30px;
+    max-width: 100%;
 }
 
 h2 {
