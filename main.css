@@ -43,7 +43,7 @@ h2 {
     padding: 10px 15px;
 }
 
-#blog article {
+.blog-post {
     border: 1px solid black;
     margin: 15px 0;
     overflow: auto;
@@ -53,7 +53,7 @@ h2 {
 /* Override default p styling. Instead, we specify a bottom padding of 16px
  * for the article box, so that the box always ends with 16px of space, even
  * if there's a floated element. */
-#blog article p {
+.blog-post p {
     margin-bottom: 0;
 }
 
