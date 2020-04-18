@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landing 2 - Example for John</title>
+  </head>
+  <body>
+    <p>This will redirect in 3 seconds to either Coke or Pepsi. The 3-second delay is just for the demo, we can make the redirect instant if you prefer.</p>
+    <script>
+      setTimeout(function() {
+        if (Math.random() < 0.5) {
+          window.location.replace("https://duckduckgo.com/?q=coke&iax=images&ia=images")
+        } else {
+          window.location.replace("https://duckduckgo.com/?q=pepsi&iax=images&ia=images")
+        }
+      }, 3000);
+    </script>
+  </body>
+</html>
