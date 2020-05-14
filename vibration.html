@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vibration Demo</title>
+  </head>
+  <body>
+    <p>This should make your phone vibrate for 200ms once every three seconds.</p>
+    <script>
+      window.setInterval(function() {
+        console.log("vibrating");
+        window.navigator.vibrate(200);
+      }, 3000);
+    </script>
+  </body>
+</html>
